@@ -12,7 +12,7 @@ namespace Parcial
 
             //PAQUETE
 
-            string[] linesPaquete = System.IO.File.ReadAllLines(@"C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\Paquetes.txt");
+            string[] linesPaquete = System.IO.File.ReadAllLines(@"/Users/miguelcumaco/Desktop/parcialProgramacion/Paquetes.txt");
             Paquetes paquete1 = new Paquetes();
             List<Paquetes> paquetePrueba = new List<Paquetes>(); 
             foreach (string liness in linesPaquete)
@@ -20,47 +20,53 @@ namespace Parcial
                 String[] data = liness.Split(";");
                 paquetePrueba.Add( new Paquetes(data[0],data[1],data[2])); 
             }
-            foreach (var item in paquetePrueba)
-            {
-                Console.WriteLine("ID: " + item.getidPaquete().ToString() + " PESO: " + item.getpesoPaquete().ToString() + " VOLUMEN: " + item.getvolpaquete().ToString());
-            }
-
 
             //CAMION
 
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\Camiones.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"/Users/miguelcumaco/Desktop/parcialProgramacion/Camiones.txt");
             Camiones camion1 = new Camiones();
             List<Camiones> camionPrueba = new List<Camiones>(); 
             foreach (string line in lines)
             {
                 String[] data = line.Split(";");
                 camionPrueba.Add( new Camiones(data[0],data[1],data[2])); 
-            }
-            foreach (var item in camionPrueba)
+            }           
+            int i = 0;
+            int j = 0;
+            double acumVol = 0;
+            double acumPeso = 0;
+            Console.WriteLine("inicio template");
+            while ( i <  camionPrueba.Count)
             {
-            Console.WriteLine("ID: " + item.getidCamion().ToString() + " PESO: " + item.getpesoMaximo().ToString() + " VOLUMEN: " + item.getvolMaximo().ToString());
-            }
-            
-            int volSobrante = 0;
-            for (int i = 0; i < camionPrueba.Count; i++)
-            {   
-                for (int j = 0; j <  paquetePrueba.Count; j++)
+                if( acumPeso + Convert.ToDouble(paquetePrueba[j].getpesoPaquete()) < Convert.ToDouble(camionPrueba[i].getpesoMaximo())
+                    || acumVol + Convert.ToDouble(paquetePrueba[j].getvolpaquete()) < Convert.ToDouble(camionPrueba[i].getvolMaximo()))
                 {
-                    int paquetesSobrantes = 0;
-                    if (Convert.ToInt32(paquetePrueba[j].getvolpaquete()) > Convert.ToInt32(camionPrueba[i].getvolMaximo()) 
-                    || Convert.ToDouble(paquetePrueba[j].getpesoPaquete()) > Convert.ToDouble(camionPrueba[i].getpesoMaximo()))
-                    {
-                        paquetesSobrantes = paquetesSobrantes + 1;
-                        volSobrante = volSobrante + Convert.ToInt32(paquetePrueba[j].getvolpaquete());
-                        Console.WriteLine(volSobrante + "volumen Sobrante");
-                        Console.WriteLine(paquetesSobrantes + "paquetes Sobrante");
-                    }
+                Console.WriteLine("camion " + paquetePrueba[i].getidPaquete());
+                    acumPeso = acumPeso + Convert.ToDouble(paquetePrueba[j].getpesoPaquete());
+                    acumVol = acumVol + Convert.ToDouble(paquetePrueba[j].getvolpaquete());
+                    Console.WriteLine("peso " + acumPeso);
+                    Console.WriteLine("Volumen " + acumVol + "\n");
+                    j++;
+                }
+                else
+                {
+                    i++;
+                    acumPeso = 0;
+                    acumVol = 0;
                 }
             }
+
+            double volSobante = 0;
+            double pesoSobrante = 0;
+            for ( int d = j; d < paquetePrueba.Count; d++)
+            {
+                volSobante = volSobante + Convert.ToDouble(paquetePrueba[d].getvolpaquete());
+                pesoSobrante = pesoSobrante + Convert.ToDouble(paquetePrueba[d].getpesoPaquete());
+                Console.WriteLine("volumen sobrante " + volSobante/100);
+                Console.WriteLine("Peso sobrante " + pesoSobrante);
+            }
+         Console.WriteLine((paquetePrueba.Count - j) + "paquetes sobrantes" + "\n");
+        Console.WriteLine("fin templates2");
         }
-        public static void crearPaquete(){
-            
-        }
-                
     }
 }
