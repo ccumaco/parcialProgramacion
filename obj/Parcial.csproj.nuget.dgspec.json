@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Borking\\Desktop\\trabajos universidad\\Programacion\\Parcial\\Parcial.csproj": {}
+    "/Users/miguelcumaco/Desktop/parcialProgramacion/Parcial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Borking\\Desktop\\trabajos universidad\\Programacion\\Parcial\\Parcial.csproj": {
+    "/Users/miguelcumaco/Desktop/parcialProgramacion/Parcial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Borking\\Desktop\\trabajos universidad\\Programacion\\Parcial\\Parcial.csproj",
+        "projectUniqueName": "/Users/miguelcumaco/Desktop/parcialProgramacion/Parcial.csproj",
         "projectName": "Parcial",
-        "projectPath": "C:\\Users\\Borking\\Desktop\\trabajos universidad\\Programacion\\Parcial\\Parcial.csproj",
-        "packagesPath": "C:\\Users\\Borking\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Borking\\Desktop\\trabajos universidad\\Programacion\\Parcial\\obj\\",
+        "projectPath": "/Users/miguelcumaco/Desktop/parcialProgramacion/Parcial.csproj",
+        "packagesPath": "/Users/miguelcumaco/.nuget/packages/",
+        "outputPath": "/Users/miguelcumaco/Desktop/parcialProgramacion/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Borking\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/miguelcumaco/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -47,12 +47,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

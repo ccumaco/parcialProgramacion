@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gDJSRwD1LHP0Umeq65ukFVcjjTkJomahzoARIU5jcY2y+T9Ja0//99s5llA2zknNpl90Fg9MF0FyEdRwc/wAOA==",
+  "dgSpecHash": "N0g45UssoxfA8S4aD0nAuArkXcKcvUoNXFLkMYBUKr9GOHmYQ5wii3vBUz0zWpjdq0zNuZy2G45ZeebXgtqRxA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Borking\\Desktop\\trabajos universidad\\Programacion\\Parcial\\Parcial.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/miguelcumaco/Desktop/parcialProgramacion/Parcial.csproj",
+  "expectedPackageFiles": [
+    "/Users/miguelcumaco/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
   "logs": []
 }

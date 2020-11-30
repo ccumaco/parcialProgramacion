@@ -1,13 +1,25 @@
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\bin\Debug\netcoreapp3.1\Parcial.exe
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\bin\Debug\netcoreapp3.1\Parcial.deps.json
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\bin\Debug\netcoreapp3.1\Parcial.runtimeconfig.json
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\bin\Debug\netcoreapp3.1\Parcial.runtimeconfig.dev.json
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\bin\Debug\netcoreapp3.1\Parcial.dll
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\bin\Debug\netcoreapp3.1\Parcial.pdb
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.csprojAssemblyReference.cache
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.AssemblyInfoInputs.cache
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.AssemblyInfo.cs
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.csproj.CoreCompileInputs.cache
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.dll
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.pdb
-C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\obj\Debug\netcoreapp3.1\Parcial.genruntimeconfig.cache
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/bin/Debug/netcoreapp3.1/Parcial.exe
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/bin/Debug/netcoreapp3.1/Parcial.deps.json
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/bin/Debug/netcoreapp3.1/Parcial.runtimeconfig.json
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/bin/Debug/netcoreapp3.1/Parcial.runtimeconfig.dev.json
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/bin/Debug/netcoreapp3.1/Parcial.dll
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/bin/Debug/netcoreapp3.1/Parcial.pdb
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.csprojAssemblyReference.cache
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.AssemblyInfoInputs.cache
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.AssemblyInfo.cs
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.csproj.CoreCompileInputs.cache
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.dll
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.pdb
+C:/Users/Borking/Desktop/trabajos universidad/Programacion/Parcial/obj/Debug/netcoreapp3.1/Parcial.genruntimeconfig.cache
+/Users/miguelcumaco/Desktop/parcialProgramacion/bin/Debug/netcoreapp3.1/Parcial.deps.json
+/Users/miguelcumaco/Desktop/parcialProgramacion/bin/Debug/netcoreapp3.1/Parcial.runtimeconfig.json
+/Users/miguelcumaco/Desktop/parcialProgramacion/bin/Debug/netcoreapp3.1/Parcial.runtimeconfig.dev.json
+/Users/miguelcumaco/Desktop/parcialProgramacion/bin/Debug/netcoreapp3.1/Parcial.dll
+/Users/miguelcumaco/Desktop/parcialProgramacion/bin/Debug/netcoreapp3.1/Parcial.pdb
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.csprojAssemblyReference.cache
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.AssemblyInfoInputs.cache
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.AssemblyInfo.cs
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.csproj.CoreCompileInputs.cache
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.dll
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.pdb
+/Users/miguelcumaco/Desktop/parcialProgramacion/obj/Debug/netcoreapp3.1/Parcial.genruntimeconfig.cache
