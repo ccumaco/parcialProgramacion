@@ -6,17 +6,17 @@ namespace Parcial
     class Paquetes
     {
         private string idPaquete;
-        private string pesoPaquete;
         private string volpaquete;
+        private string pesoPaquete;
         public int volSobrante = 0;
         public Paquetes()
         {
         }
-        public Paquetes(string idPaquete, string pesoPaquete, string volpaquete)
+        public Paquetes(string idPaquete, string volpaquete, string pesoPaquete)
         {
             this.idPaquete = idPaquete;
-            this.pesoPaquete = pesoPaquete;
             this.volpaquete = volpaquete;
+            this.pesoPaquete = pesoPaquete;
         }
         public string getidPaquete()
         {

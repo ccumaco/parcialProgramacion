@@ -6,16 +6,16 @@ namespace Parcial
     class Camiones
     {
         private string idCamion;
-        private string pesoMaximo;
         private string volMaximo;
+        private string pesoMaximo;
         public Camiones()
         {
         }
-        public Camiones(string idCamion, string pesoMaximo, string volMaximo)
+        public Camiones(string idCamion, string volMaximo, string pesoMaximo)
         {
             this.idCamion = idCamion;
-            this.pesoMaximo = pesoMaximo;
             this.volMaximo = volMaximo;
+            this.pesoMaximo = pesoMaximo;
         }
         public string getidCamion()
         {

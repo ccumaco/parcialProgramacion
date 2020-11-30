@@ -12,7 +12,7 @@ namespace Parcial
 
             //PAQUETE
 
-            string[] linesPaquete = System.IO.File.ReadAllLines(@"/Users/miguelcumaco/Desktop/parcialProgramacion/Paquetes.txt");
+            string[] linesPaquete = System.IO.File.ReadAllLines(@"C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\Paquetes.txt");
             Paquetes paquete1 = new Paquetes();
             List<Paquetes> paquetePrueba = new List<Paquetes>(); 
             foreach (string liness in linesPaquete)
@@ -23,7 +23,7 @@ namespace Parcial
 
             //CAMION
 
-            string[] lines = System.IO.File.ReadAllLines(@"/Users/miguelcumaco/Desktop/parcialProgramacion/Camiones.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Borking\Desktop\trabajos universidad\Programacion\Parcial\Camiones.txt");
             Camiones camion1 = new Camiones();
             List<Camiones> camionPrueba = new List<Camiones>(); 
             foreach (string line in lines)
@@ -38,14 +38,17 @@ namespace Parcial
             Console.WriteLine("inicio template");
             while ( i <  camionPrueba.Count)
             {
-                if( acumPeso + Convert.ToDouble(paquetePrueba[j].getpesoPaquete()) < Convert.ToDouble(camionPrueba[i].getpesoMaximo())
-                    || acumVol + Convert.ToDouble(paquetePrueba[j].getvolpaquete()) < Convert.ToDouble(camionPrueba[i].getvolMaximo()))
+                if( acumPeso + Convert.ToDouble(paquetePrueba[i].getpesoPaquete()) < Convert.ToDouble(camionPrueba[j].getpesoMaximo())
+                    || acumVol + Convert.ToDouble(paquetePrueba[i].getvolpaquete()) < Convert.ToDouble(camionPrueba[j].getvolMaximo()))
                 {
-                Console.WriteLine("camion " + paquetePrueba[i].getidPaquete());
-                    acumPeso = acumPeso + Convert.ToDouble(paquetePrueba[j].getpesoPaquete());
+                    Console.WriteLine(i + "i");
+                    Console.WriteLine(j + "j");
+
+                    // Console.WriteLine("camion " + camionPrueba[j].getidCamion());
+                    acumPeso = acumPeso + Convert.ToDouble(paquetePrueba[i].getpesoPaquete());
                     acumVol = acumVol + Convert.ToDouble(paquetePrueba[j].getvolpaquete());
-                    Console.WriteLine("peso " + acumPeso);
-                    Console.WriteLine("Volumen " + acumVol + "\n");
+                    // Console.WriteLine("paquete con ID" + paquetePrueba[j].getidPaquete() +" peso " + acumPeso);
+                    // Console.WriteLine("Volumen " + acumVol + "\n");
                     j++;
                 }
                 else
